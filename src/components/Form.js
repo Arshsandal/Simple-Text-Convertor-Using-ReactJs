@@ -29,15 +29,17 @@ export default function Form(props) {
     const [text, setText] = useState("Enter Text Here");
   return (  
     <>
-<div className="my-3">
+<div className="my-3" style={{color : props.mode==='dark'?'white':'#042743'}}>
     <h1>{props.heading}</h1>
-  <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
+  <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor : props.mode==='dark'?'#042743':'white', color:props.mode==='dark'?'white':'#042743' }} id="myBox" rows="8"></textarea>
 </div>
 <button className="btn btn-primary mx-3" onClick={handleUpClick}>Convert To UPPERCASE</button>
 <button className="btn btn-success mx-3" onClick={handleLoClick}>Convert To lowercase</button>
 <button className="btn btn-danger mx-3" onClick={handleRemoveAllClick}>Remove All</button>
 <button className="btn btn-secondary mx-3" onClick={handleReverseClick}>Reverse All</button>
-<div className="container my-3">
+
+
+<div className="container my-3" style={{color : props.mode==='dark'?'white':'#042743'}}>
 <h2>Your Text Summmary</h2>
 <p>{text.length} characters</p>
 <h3>Preview</h3>
