@@ -68,3 +68,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Project Screen-Shots
+
+Home-Page:-
+
+![Light-Mode](https://github.com/Arshsandal/Simple-Text-Convertor-Using-ReactJs/assets/124792150/50b9b8e2-5467-41fc-96b2-eb2856c2c057)
+
+
+Dark Mode:-
+
+![Dark-Mode](https://github.com/Arshsandal/Simple-Text-Convertor-Using-ReactJs/assets/124792150/9fc5745b-0d11-40da-9b30-b078b0956400)
+
+
+Upper-Case:-
+
+![Upper-Case](https://github.com/Arshsandal/Simple-Text-Convertor-Using-ReactJs/assets/124792150/2ac3da31-9c6c-4da4-8c5b-824a91f1e444)
+
+
+Lower-Case:-
+
+![Lower-Case](https://github.com/Arshsandal/Simple-Text-Convertor-Using-ReactJs/assets/124792150/d9a85827-bc5f-4911-bce1-5e8dd2bac8f2)
+
+Reverse:-
+
+![Reverse](https://github.com/Arshsandal/Simple-Text-Convertor-Using-ReactJs/assets/124792150/46d4a6c4-21cf-4455-854e-930382351041)
